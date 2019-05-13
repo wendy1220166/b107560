@@ -35,6 +35,7 @@
             font-family: 'Nanum Pen Script', cursive;
             font-size: 300%;
             text-transform: uppercase;
+            text-align: left
         }
         
         .a2 {
@@ -50,11 +51,19 @@
         body {
             background-color: lightskyblue;
         }
+        
+        .s2 {
+            text-align: center
+        }
+        
+        footer {
+            text-align: center
+        }
     </style>
 </head>
 
 <body>
-    <hearder>
+    <hearder class="top">
         <h1>Welcome To My Page</h1>
     </hearder>
     <nav>
@@ -66,7 +75,7 @@
         </ul>
     </nav>
     <article>
-        <section>
+        <section class="s1">
 
             <blockquote>
                 <p>
@@ -117,13 +126,24 @@
                     </ul>
 
                 </div>
-            </blockquote>
-            <blockquote>
-                <h2><span class="a1">My best friend</span>我最好的朋友</h2>
-            </blockquote>
+        </section>
+        </blockquote>
+        <blockquote>
+
+            <h2><span class="a1">My best friend</span></h2>
+            <section class="s2">
+                <p class="a2">我最好的朋友</p>
+
+                <img src="004.jpg" width="500" height="400" title="Best Friend01">
+                <p></p>
+                <img src="005.jpg" width="350" height="500" title="Best Friend02">
+
+                <img src="006.jpg" width="350" height="500" title="Best Friend03"> </blockquote>
         </section>
     </article>
-
+    <footer>
+        <p class="l1"><a href="#top">GO TOP 回到頂端</a></p>
+    </footer>
 
 </body>
 
